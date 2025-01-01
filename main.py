@@ -11,7 +11,7 @@ length = int(sys.argv[1])
 chars = string.ascii_letters + string.digits + string.punctuation
 pswrd = []
 
-for i in range(length-1):
+for i in range(length):
     pswrd.append(chars[random.randint(0, len(chars)-1)])
 
 
